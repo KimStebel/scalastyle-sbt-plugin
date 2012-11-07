@@ -1,6 +1,6 @@
 sbtPlugin := true
 
-scalaVersion := "2.9.2"
+scalaVersion := "2.9.1"
 
 scalacOptions := Seq("-deprecation", "-unchecked")
 
@@ -29,4 +29,4 @@ publishTo <<= version { (v: String) =>
 
 credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 
-org.scalastyle.sbt.ScalastylePlugin.Settings
+//org.scalastyle.sbt.ScalastylePlugin.Settings
